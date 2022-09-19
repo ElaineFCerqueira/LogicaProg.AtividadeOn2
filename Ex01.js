@@ -29,11 +29,21 @@
 // }
 
 
-let quantidade = 0;
+// Listar Participantes e Palestrantes
 
-while (quantidade < 99) {
-   console.log("Realizar cadastro")
-  
-};
+let listaParticipantes = ["Elaine","Peter","Humberto","Wilian"];
 
+let listaPalestrantes = ["Odirlei","Thiago"];
+
+        console.log(`Relação de Participantes:`${listaParticipantes});
+        
+         console.log(`Relação de Palestrantes:`${listaPalestrantes});
+        
+    
+
+( listaParticipantes . length  >  100 ) {
+   consol . log ( "Cadastro não permitido. Número de cadastro excedido." )
+}  senão {
+   consola . log ( "Cadastro Permitido." )
+   };
 
